@@ -8,6 +8,7 @@
 
 .navbar-nav .nav-link {
     color: white !important; /* Color blanco para los enlaces del menú */
+    font-size: 14px; /* Ajustar el tamaño de la fuente */
 }
 
 .navbar-nav .nav-link.active {
@@ -20,10 +21,12 @@
 
 .navbar .form-control {
     width: 300px; /* Ajustar el tamaño de la barra de búsqueda */
+    font-size: 14px; /* Ajustar el tamaño de la fuente */
 }
 
 .navbar .fa-heart, .navbar .fa-shopping-cart, .navbar .fa-user {
     color: white; /* Color blanco para los iconos */
+    font-size: 14px; /* Ajustar el tamaño de la fuente */
 }
 
 .navbar .fa-heart:hover, .navbar .fa-shopping-cart:hover, .navbar .fa-user:hover {
@@ -46,4 +49,17 @@ main {
 
 footer {
     margin-top: auto;
+    font-size: 14px; /* Ajustar el tamaño de la fuente */
+}
+
+.bg-primary-custom {
+    background-color: #0f47ee !important; /* Color azul primario personalizado */
+}
+
+.bg-dark-custom {
+    background-color: #040041 !important; /* Color azul oscuro personalizado para la barra de ítems */
+}
+
+.navbar-nav .nav-link {
+    padding: 8px 15px; /* Reducir el tamaño de los elementos del menú */
 }
