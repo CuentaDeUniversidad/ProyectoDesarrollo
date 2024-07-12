@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+    <head th:replace="layout/plantilla :: head"></head>
+    <body class="d-flex flex-column min-vh-100">
+        <header th:replace="layout/plantilla :: header"></header>
+
+        <!-- Contenido principal de la página -->
+        <main class="flex-fill">
+            <div class="container">
+                [[#{pruebas.jpql}]]
+                Esto es propio del index...
+            </div>
+        </main>
+
+        <footer th:replace="layout/plantilla :: footer"></footer>
+    </body>
+</html>

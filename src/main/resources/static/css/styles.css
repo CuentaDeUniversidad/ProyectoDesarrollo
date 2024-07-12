@@ -1,0 +1,49 @@
+.header {
+    background-color: #001f7f; /* Color azul oscuro del encabezado */
+}
+
+.navbar-brand img {
+    height: 50px; /* Ajustar el tamaño del logo */
+}
+
+.navbar-nav .nav-link {
+    color: white !important; /* Color blanco para los enlaces del menú */
+}
+
+.navbar-nav .nav-link.active {
+    background-color: #002f9f; /* Color de fondo para el enlace activo */
+}
+
+.navbar-nav .nav-link:hover {
+    background-color: #003fbf; /* Color de fondo para el enlace cuando se pasa el ratón por encima */
+}
+
+.navbar .form-control {
+    width: 300px; /* Ajustar el tamaño de la barra de búsqueda */
+}
+
+.navbar .fa-heart, .navbar .fa-shopping-cart, .navbar .fa-user {
+    color: white; /* Color blanco para los iconos */
+}
+
+.navbar .fa-heart:hover, .navbar .fa-shopping-cart:hover, .navbar .fa-user:hover {
+    color: #ffcc00; /* Color amarillo para los iconos cuando se pasa el ratón por encima */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+}
+
+footer {
+    margin-top: auto;
+}
