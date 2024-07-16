@@ -63,3 +63,46 @@ footer {
 .navbar-nav .nav-link {
     padding: 8px 15px; /* Reducir el tamaño de los elementos del menú */
 }
+
+/*Categoria*//* Categoria */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #0f47ee;
+    color: white;
+}
+
+.table-striped tbody tr:nth-of-type(even) {
+    background-color: #ffffff;
+    color: black;
+}
+
+.btn-primary-custom {
+    background-color: #040041;
+    border-color: #040041;
+    color: white;
+}
+
+.btn-primary-custom:hover {
+    background-color: #030036;
+    border-color: #030036;
+    color: white;
+}
+
+.btn-danger-custom {
+    background-color: #e92222;
+    border-color: #e92222;
+    color: white;
+}
+
+.btn-danger-custom:hover {
+    background-color: #c71b1b;
+    border-color: #c71b1b;
+    color: white;
+}
+
+.bg-primary-custom {
+    background-color: #0f47ee !important; /* Color azul primario personalizado */
+}
+
+.bg-dark-custom {
+    background-color: #040041 !important; /* Color azul oscuro personalizado para la barra de ítems */
+}
