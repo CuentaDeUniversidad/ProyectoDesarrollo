@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org">
 <head th:fragment="head">
-    <title th:text="#{aplicacion.titulo}">TechShop</title>
+    <title th:text="#{aplicacion.titulo}">Zapato Deluxe</title>
     <meta charset="UTF-8"/>
     <link th:href="@{/webjars/bootstrap/css/bootstrap.min.css}" rel="stylesheet"/>
     <link th:href="@{/webjars/font-awesome/css/all.css}" rel="stylesheet"/>
@@ -52,19 +52,16 @@
             <div class="container-fluid">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">[[#{accion.nuevo}]]</a>
+                        <a class="nav-link active" aria-current="page" href="#">[[#{plantilla.inicio}]]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">[[#{accion.agregar}]]</a>
+                        <a class="nav-link" th:href="@{/categoria/listado}">[[#{plantilla.categorias}]]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">[[#{categoria.descripcion}]]</a>
+                        <a class="nav-link" href="#">[[#{plantilla.productos}]]</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">[[#{plantilla.reportes}]]</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">[[#{plantilla.consultas}]]</a>
+                        <a class="nav-link" href="#">[[#{plantilla.usuarios}]]</a>
                     </li>
                 </ul>
             </div>

@@ -1,18 +1,21 @@
 <!DOCTYPE html>
+<!--
+Esta es la primera pagina de html dinamica..
+-->
+<!-- ESTAS SON ETIQUETAS EXTRAS -->
 <html xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org">
-    <head th:replace="layout/plantilla :: head"></head>
-    <body class="d-flex flex-column min-vh-100">
-        <header th:replace="layout/plantilla :: header"></header>
-
-        <!-- Contenido principal de la página -->
-        <main class="flex-fill">
-            <div class="container">
-                [[#{pruebas.jpql}]]
-                Esto es propio del index...
-            </div>
-        </main>
-
-        <footer th:replace="layout/plantilla :: footer"></footer>
+     xmlns:th="http://www.thymeleaf.org" >
+    <head th:replace="~{layout/plantilla :: head}">
+        <title>Tech Shop</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <!-- replace por lo que esta en el framento headr que esta en plantilla -->
+        <header th:replace="~{layout/plantilla :: header}"/>
+        <!-- esto es propio del index es como para crear plantillas --> 
+        [[#{pruebas.jpql}]]
+        Esto es propio del index...
+        <footer th:replace="~{layout/plantilla :: footer}"/>
+        /<!-- ahs -->
     </body>
 </html>
