@@ -17,6 +17,11 @@ public interface CategoriaService {
     // un listado de la tabla categoria en un arraylist
     //todos o solo los activos.
     
+    public List<Categoria> getCategorias(boolean activos);
     
-    public List<Categoria> getCategoria(boolean activos );
+    public Categoria getCategoria(Categoria categoria);
+    
+    public void save(Categoria categoria);
+    
+    public void delete(Categoria categoria);    
 }
